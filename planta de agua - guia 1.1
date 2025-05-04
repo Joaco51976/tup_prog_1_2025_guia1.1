@@ -1,0 +1,18 @@
+Proceso sin_titulo
+	Definir alto, ancho, largo, cloro, pastilla Como Real;
+	definir volumen, volf Como real;
+	
+	escribir "ingrese las medidas (largo, ancho, alto) de la pileta (en metros)";
+	leer largo, ancho, alto;
+	
+	Escribir "ingrese (en gramos) la dosis de cloro";
+	leer cloro;
+	
+	volumen <- largo * ancho * alto;
+	volf <- volumen * 1000;
+	pastilla <- cloro * volf / 1000;
+	
+	Escribir "usted dispone de:", volf , " litros de agua en la pileta";
+	Escribir "usted necesita:", pastilla , " kg de cloro";
+	
+FinProceso
